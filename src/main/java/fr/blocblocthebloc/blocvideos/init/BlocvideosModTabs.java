@@ -20,6 +20,9 @@ public class BlocvideosModTabs {
 	public static final RegistryObject<CreativeModeTab> BVU = REGISTRY.register("bvu",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.blocvideos.bvu")).icon(() -> new ItemStack(Blocks.BLACK_CANDLE_CAKE)).displayItems((parameters, tabData) -> {
 				tabData.accept(BlocvideosModItems.THE_BLOC_PHONE.get());
+				tabData.accept(BlocvideosModBlocks.ECRAN_PRINCIPAL.get().asItem());
+				tabData.accept(BlocvideosModBlocks.ECRAN_SECONDAIRE.get().asItem());
+				tabData.accept(BlocvideosModBlocks.ECRAN_JEUX.get().asItem());
 			})
 
 					.build());

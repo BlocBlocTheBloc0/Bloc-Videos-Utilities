@@ -1,4 +1,7 @@
 {
+  "block.blocvideos.ecran_jeux": "Écran de jeu",
   "item.blocvideos.the_bloc_phone": "Téléphone de Bloc",
-  "item_group.blocvideos.bvu": "Bloc Vidéo Utilities Tab"
+  "block.blocvideos.ecran_secondaire": "Écran Secondaire",
+  "item_group.blocvideos.bvu": "Bloc Vidéo Utilities Tab",
+  "block.blocvideos.ecran_principal": "Écran Principal"
 }

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blocvideos:block/screensides",
+    "up": "blocvideos:block/screensides",
+    "north": "blocvideos:block/ecransfront",
+    "east": "blocvideos:block/screensides",
+    "south": "blocvideos:block/screensides",
+    "west": "blocvideos:block/screensides",
+    "particle": "blocvideos:block/screensides"
+  },
+  "render_type": "solid"
+}

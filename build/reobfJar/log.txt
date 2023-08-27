@@ -135,6 +135,15 @@ Reading Input: Z:\Documents\GitHub\Bloc-Videos-Utilities\build\libs\modid-1.0.ja
 Adding input to inheritance map
 Processing entries
 Conflicting propagated mapping for fr/blocblocthebloc/blocvideos/item/TheBlocPhoneItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for fr/blocblocthebloc/blocvideos/block/EcranPrincipalBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
+Conflicting propagated mapping for fr/blocblocthebloc/blocvideos/block/EcranSecondaireBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
+Conflicting propagated mapping for fr/blocblocthebloc/blocvideos/block/EcranPrincipalBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for fr/blocblocthebloc/blocvideos/block/EcranPrincipalBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for fr/blocblocthebloc/blocvideos/block/EcranSecondaireBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for fr/blocblocthebloc/blocvideos/block/EcranJeuxBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
+Conflicting propagated mapping for fr/blocblocthebloc/blocvideos/block/EcranSecondaireBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for fr/blocblocthebloc/blocvideos/block/EcranJeuxBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for fr/blocblocthebloc/blocvideos/block/EcranJeuxBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
 Adding extras
 Sorting
 Writing Output: Z:\Documents\GitHub\Bloc-Videos-Utilities\build\reobfJar\output.jar
@@ -143,19 +152,40 @@ Writing Output: Z:\Documents\GitHub\Bloc-Videos-Utilities\build\reobfJar\output.
   META-INF/mods.toml
   assets/
   assets/blocvideos/
+  assets/blocvideos/blockstates/
+  assets/blocvideos/blockstates/ecran_jeux.json
+  assets/blocvideos/blockstates/ecran_principal.json
+  assets/blocvideos/blockstates/ecran_secondaire.json
   assets/blocvideos/lang/
   assets/blocvideos/lang/en_us.json
   assets/blocvideos/models/
+  assets/blocvideos/models/block/
+  assets/blocvideos/models/block/ecran_jeux.json
+  assets/blocvideos/models/block/ecran_principal.json
+  assets/blocvideos/models/block/ecran_secondaire.json
   assets/blocvideos/models/item/
+  assets/blocvideos/models/item/ecran_jeux.json
+  assets/blocvideos/models/item/ecran_principal.json
+  assets/blocvideos/models/item/ecran_secondaire.json
   assets/blocvideos/models/item/the_bloc_phone.json
   assets/blocvideos/textures/
+  assets/blocvideos/textures/block/
+  assets/blocvideos/textures/block/ecranjfront.png
+  assets/blocvideos/textures/block/ecranpfront.png
+  assets/blocvideos/textures/block/ecransfront.png
+  assets/blocvideos/textures/block/screensides.png
   assets/blocvideos/textures/item/
   assets/blocvideos/textures/item/the_bloc_phone.png
   fr/
   fr/blocblocthebloc/
   fr/blocblocthebloc/blocvideos/
   fr/blocblocthebloc/blocvideos/BlocvideosMod.class
+  fr/blocblocthebloc/blocvideos/block/
+  fr/blocblocthebloc/blocvideos/block/EcranJeuxBlock.class
+  fr/blocblocthebloc/blocvideos/block/EcranPrincipalBlock.class
+  fr/blocblocthebloc/blocvideos/block/EcranSecondaireBlock.class
   fr/blocblocthebloc/blocvideos/init/
+  fr/blocblocthebloc/blocvideos/init/BlocvideosModBlocks.class
   fr/blocblocthebloc/blocvideos/init/BlocvideosModItems.class
   fr/blocblocthebloc/blocvideos/init/BlocvideosModTabs.class
   fr/blocblocthebloc/blocvideos/item/

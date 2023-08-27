@@ -40,6 +40,7 @@ import java.util.AbstractMap;
 
 import fr.blocblocthebloc.blocvideos.init.BlocvideosModTabs;
 import fr.blocblocthebloc.blocvideos.init.BlocvideosModItems;
+import fr.blocblocthebloc.blocvideos.init.BlocvideosModBlocks;
 
 @Mod("blocvideos")
 public class BlocvideosMod {
@@ -49,6 +50,8 @@ public class BlocvideosMod {
 	public BlocvideosMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		BlocvideosModBlocks.REGISTRY.register(bus);
 
 		BlocvideosModItems.REGISTRY.register(bus);
 
