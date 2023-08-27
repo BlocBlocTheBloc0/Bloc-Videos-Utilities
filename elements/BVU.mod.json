@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Bloc Vidéo Utilities Tab",
+    "icon": {
+      "value": "Blocks.CANDLE_CAKE#16"
+    },
+    "showSearch": false
+  }
+}

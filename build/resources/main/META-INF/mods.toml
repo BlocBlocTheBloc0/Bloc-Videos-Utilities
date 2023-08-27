@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="blocvideos"
+version="1"
+displayName="BlocVideos"
+credits="Mod crée par Bloc"
+displayURL="https://github.io/blocblocthebloc0/Bloc-Video-Utilities"
+authors="BlocBlocTheBloc"
+description="C'est le mod que se sert Bloc dans ses vidéos"
+
+[[dependencies.blocvideos]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
