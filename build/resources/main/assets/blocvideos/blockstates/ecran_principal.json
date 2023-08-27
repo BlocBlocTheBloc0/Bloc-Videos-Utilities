@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "blocvideos:block/ecran_principal"
+    },
+    "facing=east": {
+      "model": "blocvideos:block/ecran_principal",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "blocvideos:block/ecran_principal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "blocvideos:block/ecran_principal",
+      "y": 270
     }
   }
 }
