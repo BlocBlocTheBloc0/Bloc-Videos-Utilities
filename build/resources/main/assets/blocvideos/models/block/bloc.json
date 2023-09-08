@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "blocvideos:block/BlocBottom",
+    "up": "blocvideos:block/BlocSide",
+    "north": "blocvideos:block/BlocFront",
+    "east": "blocvideos:block/BlocSide",
+    "south": "blocvideos:block/BlocSide",
+    "west": "blocvideos:block/BlocSide",
+    "particle": "blocvideos:block/BlocBottom"
+  },
+  "render_type": "solid"
+}

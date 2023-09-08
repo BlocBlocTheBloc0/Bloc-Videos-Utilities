@@ -21,6 +21,7 @@ public class BlocvideosModItems {
 	public static final RegistryObject<Item> ECRAN_PRINCIPAL = block(BlocvideosModBlocks.ECRAN_PRINCIPAL);
 	public static final RegistryObject<Item> ECRAN_SECONDAIRE = block(BlocvideosModBlocks.ECRAN_SECONDAIRE);
 	public static final RegistryObject<Item> ECRAN_JEUX = block(BlocvideosModBlocks.ECRAN_JEUX);
+	public static final RegistryObject<Item> BLOC = block(BlocvideosModBlocks.BLOC);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

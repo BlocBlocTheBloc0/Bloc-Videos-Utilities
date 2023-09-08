@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "blocvideos:block/bloc"
+    },
+    "facing=east": {
+      "model": "blocvideos:block/bloc",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "blocvideos:block/bloc",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "blocvideos:block/bloc",
+      "y": 270
+    }
+  }
+}

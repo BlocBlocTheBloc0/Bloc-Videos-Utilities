@@ -75,6 +75,22 @@
         ]
       },
       "path": "~/Ecrans"
+    },
+    {
+      "name": "Bloc",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloc",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/blocvideos/block/BlocBlock.java",
+          "src/main/resources/assets/blocvideos/models/block/bloc.json",
+          "src/main/resources/assets/blocvideos/blockstates/bloc.json",
+          "src/main/resources/assets/blocvideos/models/item/bloc.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -85,7 +101,8 @@
       "item.blocvideos.the_bloc_phone": "Téléphone de Bloc",
       "block.blocvideos.ecran_secondaire": "Écran Secondaire",
       "item_group.blocvideos.bvu": "Bloc Vidéo Utilities Tab",
-      "block.blocvideos.ecran_principal": "Écran Principal"
+      "block.blocvideos.ecran_principal": "Écran Principal",
+      "block.blocvideos.bloc": "Bloc"
     }
   },
   "foldersRoot": {
@@ -100,7 +117,7 @@
   "workspaceSettings": {
     "modid": "blocvideos",
     "modName": "BlocVideos",
-    "version": "2.1",
+    "version": "3.0",
     "description": "C\u0027est le mod que se sert Bloc dans ses vidéos",
     "author": "BlocBlocTheBloc",
     "websiteURL": "https://github.io/blocblocthebloc0/Bloc-Video-Utilities",
@@ -116,5 +133,5 @@
     "modElementsPackage": "fr.blocblocthebloc.blocvideos",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300334614
+  "mcreatorVersion": 202300336712
 }

@@ -1,0 +1,120 @@
+{
+  "mod_elements": [
+    {
+      "name": "BVU",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bvu",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TheBlocPhone",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_bloc_phone",
+      "metadata": {
+        "files": [
+          "src/main/java/fr/blocblocthebloc/blocvideos/item/TheBlocPhoneItem.java",
+          "src/main/resources/assets/blocvideos/models/item/the_bloc_phone.json"
+        ]
+      }
+    },
+    {
+      "name": "EcranPrincipal",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ecran_principal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocvideos/blockstates/ecran_principal.json",
+          "src/main/resources/assets/blocvideos/models/block/ecran_principal.json",
+          "src/main/java/fr/blocblocthebloc/blocvideos/block/EcranPrincipalBlock.java",
+          "src/main/resources/assets/blocvideos/models/item/ecran_principal.json"
+        ]
+      },
+      "path": "~/Ecrans"
+    },
+    {
+      "name": "EcranSecondaire",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ecran_secondaire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocvideos/models/block/ecran_secondaire.json",
+          "src/main/java/fr/blocblocthebloc/blocvideos/block/EcranSecondaireBlock.java",
+          "src/main/resources/assets/blocvideos/models/item/ecran_secondaire.json",
+          "src/main/resources/assets/blocvideos/blockstates/ecran_secondaire.json"
+        ]
+      },
+      "path": "~/Ecrans"
+    },
+    {
+      "name": "EcranJeux",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ecran_jeux",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/blocvideos/models/item/ecran_jeux.json",
+          "src/main/resources/assets/blocvideos/blockstates/ecran_jeux.json",
+          "src/main/java/fr/blocblocthebloc/blocvideos/block/EcranJeuxBlock.java",
+          "src/main/resources/assets/blocvideos/models/block/ecran_jeux.json"
+        ]
+      },
+      "path": "~/Ecrans"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.blocvideos.ecran_jeux": "Écran de jeu",
+      "item.blocvideos.the_bloc_phone": "Téléphone de Bloc",
+      "block.blocvideos.ecran_secondaire": "Écran Secondaire",
+      "item_group.blocvideos.bvu": "Bloc Vidéo Utilities Tab",
+      "block.blocvideos.ecran_principal": "Écran Principal"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Ecrans",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "blocvideos",
+    "modName": "BlocVideos",
+    "version": "2.1",
+    "description": "C\u0027est le mod que se sert Bloc dans ses vidéos",
+    "author": "BlocBlocTheBloc",
+    "websiteURL": "https://github.io/blocblocthebloc0/Bloc-Video-Utilities",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Mod crée par Bloc",
+    "modElementsPackage": "fr.blocblocthebloc.blocvideos",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300334614
+}

@@ -4,7 +4,7 @@
   "definition": {
     "name": "Bloc Vidéo Utilities Tab",
     "icon": {
-      "value": "Blocks.CANDLE_CAKE#16"
+      "value": "CUSTOM:TheBlocPhone"
     },
     "showSearch": false
   }
