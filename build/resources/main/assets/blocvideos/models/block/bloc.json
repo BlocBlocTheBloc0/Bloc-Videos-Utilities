@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "blocvideos:block/BlocBottom",
-    "up": "blocvideos:block/BlocSide",
-    "north": "blocvideos:block/BlocFront",
-    "east": "blocvideos:block/BlocSide",
-    "south": "blocvideos:block/BlocSide",
-    "west": "blocvideos:block/BlocSide",
-    "particle": "blocvideos:block/BlocBottom"
+    "down": "blocvideos:block/blocobottom",
+    "up": "blocvideos:block/blocoside",
+    "north": "blocvideos:block/blocfonrt",
+    "east": "blocvideos:block/blocoside",
+    "south": "blocvideos:block/blocoside",
+    "west": "blocvideos:block/blocoside",
+    "particle": "blocvideos:block/blocobottom"
   },
   "render_type": "solid"
 }
